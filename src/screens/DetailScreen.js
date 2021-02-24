@@ -9,7 +9,7 @@ export const DetailScreen = (props) => {
     const [positionLeft, setPositionLeft] = useState(new Animated.Value(Dimensions.get('window').width));
     useLayoutEffect(() => {
         navigation.setOptions({
-            title: route && route.params && route.params.title ? route.params.title : 'Dernier film sortit'
+            title: route && route.params && route.params.title ? route.params.title : 'Dernier film sorti'
         })
     })
     useEffect(() => {
