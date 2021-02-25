@@ -44,6 +44,7 @@ const styles = StyleSheet.create({
     },
     textinput: {
         height: 50,
-        paddingLeft: 10
+        paddingLeft: 10,
+        width: 250,
     }
 })
